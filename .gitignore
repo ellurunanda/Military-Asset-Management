@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+*/node_modules/
+
+# build output
+military-asset-management/build/
+
+# env files (keep .env.example if you have one)
+.env
+backend/.env
+military-asset-management/.env
+
+# logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+*.swp
