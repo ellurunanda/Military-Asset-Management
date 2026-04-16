@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 // middleware setup
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: "https://military-asset-management-frontend-39ke.onrender.com",
   credentials: true
 }));
 app.use(bodyParser.json());
